@@ -1,0 +1,119 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    background-color: #000;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    width: 250px;
+}
+.sidebar a {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin: 15px 0;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.sidebar .post-btn {
+    background-color: #1d9bf0;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+.tweet-box {
+    background-color: #16181c;
+    border: 1px solid #2f3336;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 700px;
+}
+.tweet-box textarea {
+    background-color: #16181c;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    resize: none;
+    width: 100%;
+}
+.tweet-box textarea:focus {
+    outline: none;
+}
+.tweet-box .tweet-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.tweet-box .tweet-actions i {
+    color: #1d9bf0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.tweet-box .post-btn {
+    background-color: #1d9bf0;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.tweet {
+    background-color: #16181c;
+    border: 1px solid #2f3336;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 700px;
+}
+.tweet .tweet-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.tweet .tweet-header img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.tweet .tweet-header .tweet-author {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.tweet .tweet-header .tweet-author span {
+    color: #6e767d;
+    font-size: 14px;
+}
+.tweet .tweet-content {
+    margin-top: 10px;
+}
+.tweet .tweet-content img {
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.xlogo {
+    width: 55px;
+    margin-left: 1%;
+}
+.x2logo  {
+    width: 25px;
+}
+.pro {
+    border-radius: 50px;
+}
